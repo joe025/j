@@ -1,0 +1,663 @@
+*{
+	padding: 0;
+	margin:0;
+	text-decoration: none;
+	/*font-family: Brush Script MT;*/
+	font-family: arial;
+		list-style: none;
+}
+
+
+.navbar{
+	width:100%;
+	position: fixed;
+	background-color: #20E192;
+
+}
+.navbar .max-width{
+	width:1300px;
+	display: flex;
+	justify-content:space-between;
+	align-content: center;
+	margin:20px auto;
+}
+.menud li{
+	display: inline-block;
+}
+	
+.menud li a{
+		color: white;
+	font-size:20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition:color 1s;
+}
+.menud li{
+	display: inline-block;
+}	
+.menug li a{
+		color: white;
+	font-size:20px;
+	font-weight: 200;
+	margin-left: 25px;
+	}
+.sous{
+	display: none;
+	position: absolute;
+
+}
+.menud li:hover .sous{
+display: block;
+
+}
+.sous li{
+	border:2px solid white;
+	width: 100%;
+	/*text-align: center;*/
+	background-color: #20E192;
+	margin-right: -40px;
+}
+.sec1{
+	width: 100%;
+	height: 630px;
+	background-color: white;
+}
+.max-width{
+	width: 100%;
+	display: flex;
+}
+.max-width .left{
+	width: 70%;
+	padding-top: 100px;
+	padding-left: 50px;
+}
+.max-width .left .slider{
+	width:700px;
+	height: 400px;
+	background:url(image1.jpg);
+	animation: s 10s infinite;
+}
+@keyframes s{
+25%{
+	background:url(image1.jpg);
+}
+50%{
+	background:url(ft.webp);
+}
+75%{
+	background:url(bask2.jpg);
+}
+100%{
+	background:url(tenn.webp);
+}
+}
+.sec1.max-width .right{
+	width: 30%;
+	padding-top: 100px;
+}
+.max-width .right .tab{
+padding-top: 100px;
+padding-left: 40px;
+border:none;
+}
+.max-width .right .tab a{
+font-size: 25px;
+font-weight: 400px;	
+color: #20E192;
+}
+.max-width .right .tab   a  :hover{
+color:black;
+}
+.max-width .right .tab .text{
+background-color: white;
+}
+
+.sec2{
+width: 100%;
+height:1100px;
+background-color: white;
+}
+.title2{
+	padding-left: 50px;
+	padding-top: 50px;
+}
+.tab2{
+	padding-left: 100px;
+	word-wrap: break-word;
+
+}
+.tab2 a{
+	font-size: 25px;
+	font-weight: 200px;
+	color: #20E192;
+
+}
+.tab2 p{
+	text-align: center;
+}
+
+
+.tab2 .com {
+	height: 18px;
+	width: 40px;
+	border:2px solid black;
+	background-color: white;
+	color: #20E192;
+	border-radius: 5px;
+	display: inline-block;
+}
+.copy{
+	background-color: #20E192;
+	color:white;
+	font-size: 25px;
+	font-weight: 100px;
+	margin-bottom: 0px;
+	font-family: Brush Script MT;
+}
+/*-----------------------------------------------------------foot--------------------------------------------------------------------*/
+.navbar .max-width .menug li {
+		color: white;
+	font-size:20px;
+	font-weight: 200;
+	margin-left: 25px;
+	}
+.secft1{
+	height: 1200px;
+	background:url(football5.jpg);
+	/*width: 100%;*/
+}
+.titleft{
+	padding-left: 50px;
+	padding-top: 100px;
+	color: white;
+}
+.max-widthft{
+	display: flex;
+	width: 100%;
+}
+.max-widthft .leftft{
+	width: 30%;
+	height: 350px;
+	border:5px solid white;
+	margin-left: 20px;
+	word-wrap: break-word;
+	border-radius: 8px;
+
+}
+.max-widthft .midft{
+	width: 30%;
+	height: 350px;
+	border:5px solid white;
+	margin-right: 30px;
+	margin-left: 30px;
+	word-wrap: break-word;
+	border-radius: 8px;
+
+
+}
+.max-widthft .rightft{
+	width:30%;
+	height: 350px;
+	border:5px solid white;
+	word-wrap: break-word;
+	border-radius: 8px;
+	
+}
+.max-widthft a{
+font-size: 25px;
+	font-weight: 200px;
+	color: #20E192;
+}
+.max-widthft p{
+	color: white;
+}
+
+.max-widthft .comft{
+height: 18px;
+	width: 40px;
+	border:2px solid white;
+	background-color: #20E192;
+	color: white;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+/*---------------------------------------*/
+.max-widthft2{
+	display: flex;
+	width: 100%;
+	margin-top: 100px;
+}
+.max-widthft2 .leftft2{
+	width: 30%;
+	height: 350px;
+	border:5px solid white;
+	margin-left: 20px;
+	word-wrap: break-word;
+	border-radius: 8px;
+
+}
+.max-widthft2 .midft2{
+	width: 30%;
+	height: 350px;
+	border:5px solid white;
+	margin-right: 30px;
+	margin-left: 30px;
+	word-wrap: break-word;
+	border-radius: 8px;
+
+
+}
+.max-widthft2 .rightft2{
+	width:30%;
+	height: 350px;
+	border:5px solid white;
+	word-wrap: break-word;
+	border-radius: 8px;
+	
+}
+.max-widthft2 a{
+font-size: 25px;
+	font-weight: 200px;
+	color: #20E192;
+}
+.max-widthft2 p{
+	color: white;
+}
+
+.max-widthft2 .comft2{
+height: 18px;
+	width: 40px;
+	border:2px solid white;
+	background-color: #20E192;
+	color: white;
+	border-radius: 5px;
+	display: inline-block;
+}
+/*--------------------------------------------------------basket---------------------------------------------------------------------*/
+.navbarb{
+	width:100%;
+	position: fixed;
+	background-color: #E28114;
+
+}
+.navbarb .max-widthb{
+	width:1300px;
+	display: flex;
+	justify-content:space-between;
+	align-content: center;
+	margin:20px auto;
+}
+.menudb li{
+	display: inline-block;
+}
+	
+.menudb li a{
+		color: white;
+	font-size:20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition:color 1s;
+}
+.menudb li{
+	display: inline-block;
+}	
+.menugb li a{
+		color: white;
+	font-size:20px;
+	font-weight: 200;
+	margin-left: 25px;
+	}
+.sousb{
+	display: none;
+	position: absolute;
+
+}
+.menudb li:hover .sousb{
+display: block;
+
+}
+.sousb li{
+	border:2px solid white;
+	width: 100%;
+	/*text-align: center;*/
+	background-color: #E28114;
+	margin-right: -40px;
+}
+.navbarb .max-widthb .menugb li {
+		color: white;
+	font-size:20px;
+	font-weight: 200;
+	margin-left: 25px;
+	}
+.secb1{
+	height: 1200px;
+	background:url(bask.jpg);
+	/*width: 100%;*/
+	padding-top: 100px;
+}
+.titleft{
+	padding-left: 50px;
+	padding-top: 100px;
+	color: white;
+}
+.max-widthb{
+	display: flex;
+	width: 100%;
+}
+.max-widthb .leftb{
+	width: 30%;
+	height: 350px;
+	border:5px solid white;
+	margin-left: 20px;
+	word-wrap: break-word;
+	border-radius: 8px;
+
+}
+.max-widthb .midb{
+	width: 30%;
+	height: 350px;
+	border:5px solid white;
+	margin-right: 30px;
+	margin-left: 30px;
+	word-wrap: break-word;
+	border-radius: 8px;
+
+
+}
+.max-widthb .rightb{
+	width:30%;
+	height: 350px;
+	border:5px solid white;
+	word-wrap: break-word;
+	border-radius: 8px;
+	
+}
+.max-widthb a{
+font-size: 25px;
+	font-weight: 200px;
+	color: #E28114;
+}
+.max-widthb p{
+	color: white;
+}
+
+.max-widthb .comb{
+height: 18px;
+	width: 40px;
+	border:2px solid white;
+	background-color: #E28114;
+	color: white;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+/*---------------------------------------*/
+.max-widthb2{
+	display: flex;
+	width: 100%;
+	margin-top: 100px;
+}
+.max-widthb2 .leftb2{
+	width: 30%;
+	height: 350px;
+	border:5px solid white;
+	margin-left: 20px;
+	word-wrap: break-word;
+	border-radius: 8px;
+
+}
+.max-widthb2 .midb2{
+	width: 30%;
+	height: 350px;
+	border:5px solid white;
+	margin-right: 30px;
+	margin-left: 30px;
+	word-wrap: break-word;
+	border-radius: 8px;
+
+
+}
+.max-widthb2 .rightb2{
+	width:30%;
+	height: 350px;
+	border:5px solid white;
+	word-wrap: break-word;
+	border-radius: 8px;
+	
+}
+.max-widthb2 a{
+font-size: 25px;
+	font-weight: 200px;
+	color: #E28114;
+}
+.max-widthb2 p{
+	color: white;
+}
+
+.max-widthb2 .comb2{
+height: 18px;
+	width: 40px;
+	border:2px solid white;
+	background-color: #E28114;
+	color: white;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+
+/*--------------------------------------------------------tennis---------------------------------------------------------------------*/
+.navbart{
+	width:100%;
+	position: fixed;
+	background-color: crimson;
+
+}
+.navbart .max-widtht{
+	width:1300px;
+	display: flex;
+	justify-content:space-between;
+	align-content: center;
+	margin:20px auto;
+}
+.menudt li{
+	display: inline-block;
+}
+	
+.menudt li a{
+		color: white;
+	font-size:20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition:color 1s;
+}
+.menudt li{
+	display: inline-block;
+}	
+.menugt li a{
+		color: white;
+	font-size:20px;
+	font-weight: 200;
+	margin-left: 25px;
+	}
+.soust{
+	display: none;
+	position: absolute;
+
+}
+.menudt li:hover .soust{
+display: block;
+
+}
+.soust li{
+	border:2px solid white;
+	width: 100%;
+	/*text-align: center;*/
+	background-color: crimson;
+	margin-right: -40px;
+}
+.navbart .max-widtht .menugt li {
+		color: white;
+	font-size:20px;
+	font-weight: 200;
+	margin-left: 25px;
+	}
+.sect1{
+	height: 1200px;
+	background:url(tennn.jpg);
+	/*width: 100%;*/
+	padding-top: 100px;
+}
+.titleft{
+	padding-left: 50px;
+	padding-top: 100px;
+	color: white;
+}
+.max-widtht{
+	display: flex;
+	width: 100%;
+}
+.max-widtht .leftt{
+	width: 30%;
+	height: 350px;
+	border:5px solid white;
+	margin-left: 20px;
+	word-wrap: break-word;
+	border-radius: 8px;
+
+}
+.max-widtht .midt{
+	width: 30%;
+	height: 350px;
+	border:5px solid white;
+	margin-right: 30px;
+	margin-left: 30px;
+	word-wrap: break-word;
+	border-radius: 8px;
+
+
+}
+.max-widtht .rightt{
+	width:30%;
+	height: 350px;
+	border:5px solid white;
+	word-wrap: break-word;
+	border-radius: 8px;
+	
+}
+.max-widtht a{
+font-size: 25px;
+	font-weight: 200px;
+	color: crimson;
+}
+.max-widtht p{
+	color: white;
+}
+
+.max-widtht .comt{
+height: 18px;
+	width: 40px;
+	border:2px solid white;
+	background-color: crimson;
+	color: white;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+/*---------------------------------------*/
+.max-widtht2{
+	display: flex;
+	width: 100%;
+	margin-top: 100px;
+}
+.max-widtht2 .leftt2{
+	width: 30%;
+	height: 350px;
+	border:5px solid white;
+	margin-left: 20px;
+	word-wrap: break-word;
+	border-radius: 8px;
+
+}
+.max-widtht2 .midt2{
+	width: 30%;
+	height: 350px;
+	border:5px solid white;
+	margin-right: 30px;
+	margin-left: 30px;
+	word-wrap: break-word;
+	border-radius: 8px;
+
+
+}
+.max-widtht2 .rightt2{
+	width:30%;
+	height: 350px;
+	border:5px solid white;
+	word-wrap: break-word;
+	border-radius: 8px;
+	
+}
+.max-widtht2 a{
+font-size: 25px;
+	font-weight: 200px;
+	color: crimson;
+}
+.max-widtht2 p{
+	color: white;
+}
+
+.max-widtht2 .comt2{
+height: 18px;
+	width: 40px;
+	border:2px solid white;
+	background-color: crimson;
+	color: white;
+	border-radius: 5px;
+	display: inline-block;
+}
+/*------------------------------------------------------annonce------------------------------------------------------*/
+
+.section4{
+	background:url("annonce.jpg");
+height:800px;
+width: 100%;
+
+}
+.max-widt{
+	width: 100%;
+	display: flex;
+}
+.max-widt .width1{
+	width:50%;
+	color: orange;
+	padding-left: 100px;
+font-size: 25px;
+}
+.max-widt .width2{
+	width:30%;
+	color: black;
+}
+.max-widt .width3{
+	width:20%;
+}
+.area{
+	width:210px;
+	height: 150px;
+}
+.bottonlast{
+	font-size:  25px;
+	font-weight: 300px;
+	color:orange;
+	border :3px solid orange;
+	border-radius: 5px;
+	background-color: white;
+}
+.titlelast{
+	font-size: 30px;
+	font-weight: 200px;
+	color:white;
+}
+.inf{
+	color: white;
+}
